@@ -1,10 +1,10 @@
 import argparse
-from .configs import ROI_RANGE
+from .configs import CONFIG
 
 arg_parser = argparse.ArgumentParser(prog='CalibrateLWT.py',
                                      description="Process analysis or select ROI, take an input video filename")
 
-arg_parser.add_argument('--ROI', metavar=('x', 'y', 'w', 'h'), type=int, nargs=4, default=ROI_RANGE,
+arg_parser.add_argument('--ROI', metavar=('x', 'y', 'w', 'h'), type=int, nargs=4, default=CONFIG.ROI_RANGE,
                         help="x, y, width, height")
 arg_parser.add_argument('--output', metavar='OUTPUT-MODE', type=str, nargs='?',
                         choices=['result-only', 'details'], default='result-only',
