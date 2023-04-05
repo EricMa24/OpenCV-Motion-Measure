@@ -6,3 +6,5 @@ A Python project use OpenCV and GoPro camera to measure/calibrate object motion.
 ## Installation 
 
 ## Run Script
+
+![ROI Selector](https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/roi_selector.png)
