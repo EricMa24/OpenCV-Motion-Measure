@@ -14,6 +14,10 @@ Recognition results:
 <img src="https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/demo_result2.jpg" alt="demo_result2" width="600">
 
 ## Installation 
+Install Python libraries
+> numpy~=1.23.3
+> pandas~=1.4.4
+> opencv-python==4.5.5.62
 
 ## Run Script
 
