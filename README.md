@@ -15,9 +15,11 @@ Recognition results:
 
 ## Installation 
 Install Python libraries
-> numpy~=1.23.3
-> pandas~=1.4.4
-> opencv-python==4.5.5.62
+> numpy~=1.23.3 
+> 
+> pandas~=1.4.4 
+> 
+> opencv-python==4.5.5.62 
 
 ## Run Script
 
