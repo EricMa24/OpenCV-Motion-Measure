@@ -9,9 +9,7 @@ Input Video (/demo/demo.mp4):
 
 
 Recognition results:  
-
-<img src="https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/demo_result1.jpg" alt="demo_result1" width="600">
-<img src="https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/demo_result2.jpg" alt="demo_result2" width="600">
+![result](https://github.com/EricMa24/OpenCV-Motion-Measure/assets/54548998/c3979c64-5d7b-4acd-a7e3-8ef4a94e1fc0)
 
 ## Installation 
 Install Python libraries
