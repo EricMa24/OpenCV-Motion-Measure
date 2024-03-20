@@ -9,6 +9,9 @@ Input Video (/demo/demo.mp4):
 Recognition results:  
 <img src="/img/result.gif" alt="result" autoplay="true">
 
+Processing Flowchart:
+<img src="/img/flowchart.png" alt="flowchart" autoplay="true">
+
 ## Installation 
 Install Python libraries
 > numpy~=1.23.3 
