@@ -4,10 +4,10 @@ A Python project use OpenCV and GoPro camera to measure/calibrate object motion.
 ## An Example:
 
 Input Video (/demo/demo.mp4):
-![output](https://github.com/EricMa24/OpenCV-Motion-Measure/assets/54548998/4cac2d76-3a72-4e11-bf88-3c6df647e550)
+<img src="/img/demo.gif" alt="demo.mp4" autoplay="true">
 
 Recognition results:  
-![result](https://github.com/EricMa24/OpenCV-Motion-Measure/assets/54548998/c3979c64-5d7b-4acd-a7e3-8ef4a94e1fc0)
+<img src="/img/result.gif" alt="result" autoplay="true">
 
 ## Installation 
 Install Python libraries
