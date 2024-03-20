@@ -7,7 +7,7 @@ Input Video (/demo/demo.mp4):
 
 <img src="/img/demo.gif" alt="demo.mp4" autoplay="true">
 
-Recognition results:  
+Recognition Results:  
 
 <img src="/img/result.gif" alt="result" autoplay="true">
 
