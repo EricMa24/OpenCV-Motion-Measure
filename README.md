@@ -45,3 +45,16 @@ When done, a Excel sheet of summary results would be generated:
 
 <img src="https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/motion_results.png" alt="motion_results" width="700">
 
+## run.py Usages
+usage: run.py [-h] [--output [OUTPUT-MODE]] [--start [START]] [--end [END]] [--step [STEP]] VIDEO-FILE
+
+positional arguments:
+  VIDEO-FILE            video file name
+
+options:
+  -h, --help            show this help message and exit
+  --output [OUTPUT-MODE]
+                        ['result_only', 'details']
+  --start [START]       Start frame (0-Indexed)
+  --end [END]           End frame (0-Indexed)
+  --step [STEP]         Step of reading frame
