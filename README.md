@@ -25,10 +25,10 @@ Install Python libraries
 
 ## Run Script
 
-### Set Image ROI
+Run script with input video file:
+> python run.py “.\demo\demo.mp4”
 
-To determine the coordinates of ROI, run script with input video file and pass “--ROI-only”:
-> python ruler_recog.py “.\demo\demo.mp4” --ROI-only
+### Set Image ROI
 
 In the opened window, adjust ROI as example shows. 
 - ROI should be in the middle of image as possible for avoiding distortion. 
@@ -39,17 +39,9 @@ In the opened window, adjust ROI as example shows.
 
 ### Run Analysis
 
-Run script with input video file and ROI values:
-> python CalibrateLWT.py “.\demo\demo.mp4” --ROI  520 440 240 70
+Press "K" to start analysis
 
-It can also take an input of the start tick, 
-which make no difference to analysis but let results looks better:
-> python CalibrateLWT.py “.\demo\demo.mp4” --ROI  520 440 240 70   -start-tick 21
-
-The table of summary results generated from script:
+When done, a Excel sheet of summary results would be generated:
 
 <img src="https://github.com/EricMa24/OpenCV-Motion-Measure/blob/master/img/motion_results.png" alt="motion_results" width="700">
 
-All frames of recognition results can be combined back into video for a better look
-
-> python ./Scripts/gen_demo_video.py 
