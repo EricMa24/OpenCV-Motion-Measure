@@ -56,9 +56,7 @@ options:
 
   -h, --help            show this help message and exit
   
-  --output [OUTPUT-MODE]
-  
-                        ['result_only', 'details']
+  --output [OUTPUT-MODE]   ['result_only', 'details']
                         
   --start [START]       Start frame (0-Indexed)
   
