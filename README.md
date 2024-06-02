@@ -49,12 +49,19 @@ When done, a Excel sheet of summary results would be generated:
 usage: run.py [-h] [--output [OUTPUT-MODE]] [--start [START]] [--end [END]] [--step [STEP]] VIDEO-FILE
 
 positional arguments:
+
   VIDEO-FILE            video file name
 
 options:
+
   -h, --help            show this help message and exit
+  
   --output [OUTPUT-MODE]
+  
                         ['result_only', 'details']
+                        
   --start [START]       Start frame (0-Indexed)
+  
   --end [END]           End frame (0-Indexed)
+  
   --step [STEP]         Step of reading frame
